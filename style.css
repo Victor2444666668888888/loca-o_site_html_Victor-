@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+img{
+    width: 250px;
+    height: 100px;
+    border-radius:10px;
+}
+
+section,footer{
+    padding: 55px 0;
+}
+
+p{
+    color: black;
+}
+
+h3{
+    font-size: 50px;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+header{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.ul{
+    background-color: #ffffff36;
+    border-radius: 5px;
+    height: 30px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul a{
+    color: black;
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: block;
+}
+
+.btn{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 15px 20px;
+    border-radius:10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.p1{
+    display: flex;
+    justify-content: center;
+}
+
+.p1 .p1-texto{
+    margin: 150px;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.p1 .p1-texto h1{
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+}
+
+.p1 .p1-texto p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    margin: 16px;
+}
+
+nav ul a::after{
+    content: "";
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 0%;
+    display: block;
+    transition: 0.3s;
+    margin: 0 auto;
+}
+
+nav ul a:hover::after{
+    width: 100%;
+}
+
+.localização .container{
+    display: flex;
+    align-items: center;
+}
+
+.localização .localização-texto{
+    width: 50%;
+}
+
+.localização .localização-img{
+    width: 50%;
+}
+
+.img1{
+    width: 550px;
+    height: 350px;
+}
+
+.localização .localização-texto h3{
+    font-size: 56px;
+}
+
+.localização .localização-texto p{
+    margin: 5px 0 10px 0;
+}
+
+.localização .localização-img img{
+    width: 100%;
+}
+
+.ofertas h3{
+    text-align: center
+}
+
+.container p{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.p{
+    background-color: rgba(0, 0, 0, 0.327);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards-items {
+    border-radius: 10px;
+    text-align: center;
+    width: 290px;
+    min-height: 250px;
+    padding: 10px;
+    border: 1px solid #000000;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 10px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    background-color: rgb(233, 255, 222);
+}
+
+.cards-items:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cards-items img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.localização{
+    background-color: rgb(203, 241, 245);
+}
+
+.ofertas{
+    background-color: rgb(221, 252, 255);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6795f1;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.card {
+    padding: 5px;
+    background-color: rgb(205, 224, 255);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vehicle-info {
+    flex: 1;
+}
+.vehicle-info h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #444;
+}
+.vehicle-info p {
+    color: #666;
+}
+.price {
+    padding:8px;
+    font-size: 24px;
+    color: #e74c3c;
+    font-weight: bold;
+}
+.button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #2980b9;
+}
+
+.cars-header {
+    background-color: #0033cc;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.cars-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(138, 191, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cars-section h1, .cars-section h2 {
+    color: #1c3c9e;
+}
+
+.cars-section p {
+    line-height: 1.6;
+}
+
+.cars-benefits {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.cars-footer {
+    background-color: #2045b6;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.cars-footer h2 {
+    margin-bottom: 20px;
+}
+
+.cars-footer form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.cars-footer input, .cars-footer textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.cars-footer input[type="submit"] {
+    background-color: #ffffff;
+    color: #0033cc;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cars-footer input[type="submit"]:hover {
+    background-color: #e0e0e0;
+}
+
+.cars-social {
+    margin: 20px 0;
+}
+
+.cars-social a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.cars-social a:hover {
+    color: #cb0000;
+}
+
+.cars-footer p {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.fundo{
+    background-color: #0000002f;
+    border-radius: 10px;
+}
